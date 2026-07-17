@@ -9,7 +9,7 @@ from aiogram.filters import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMINS = [8672397104]  # coloque seu ID aqui
+ADMINS = [8672397104, 1130170420]  # coloque seu ID aqui
 GRUPO_ID = -1003640277537  # coloque o ID do grupo aqui
 
 bot = Bot(BOT_TOKEN)
